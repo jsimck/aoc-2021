@@ -1,0 +1,32 @@
+{
+  "name": "aoc-2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint -c ./.eslintrc.js",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsimck/aoc-2021.git"
+  },
+  "keywords": [],
+  "author": "Jan Šimeček (https://github.com/jsimck)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsimck/aoc-2021/issues"
+  },
+  "homepage": "https://github.com/jsimck/aoc-2021#readme",
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.0"
+  }
+}
